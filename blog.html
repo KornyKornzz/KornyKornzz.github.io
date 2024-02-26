@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="pacific.css">
+    <meta charset="UTF-8">
+    <title>A Mom's Blog - Submit a Blog Post</title>
+</head>
+<body>
+    <header>
+        <h1>A Mom's Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Submit a Blog Post</h2>
+        <form id="blogForm">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+            <label for="content">Content:</label>
+            <textarea id="content" name="content" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="message"></div>
+    </main>
+    <footer>
+        <p>© 2024 A Mom's Blog Website. All rights reserved.</p>
+        <ul>
+            <li><a href="https://www.facebook.com/amomsblog">Facebook</a></li>
+            <li><a href="https://www.twitter.com/amomsblog">Twitter</a></li>
+            <li><a href="https://www.instagram.com/amomsblog">Instagram</a></li>
+        </ul>
+    </footer>
+
+    <script src="submit.js"></script>
+</body>
+</html>
